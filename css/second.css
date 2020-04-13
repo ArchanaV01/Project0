@@ -1,0 +1,126 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.button_1{
+    height: 38px;
+    background: coral;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header{
+    background: rgb(4, 12, 133);
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: chocolate 3px solid;
+}
+
+header a{
+    text-decoration: none;
+    color: gold;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    /* float: left; */
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #main {
+    float: left;
+}
+
+header h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover{
+    color: coral;
+    font-weight: bold;
+}
+
+/* Showcase */
+#showcase{
+    min-height: 400px;
+    background: url('../images/southshowcase.jpg') no-repeat 0 -100px;
+    text-align: center;
+    color: white;
+}
+
+#showcase h1 {
+    font-size: 55px;
+}
+
+#showcase p{
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+#form{
+    padding: 5px;
+    color: white;
+    background-color: rgb(4, 12, 133);
+}
+
+#form h1 {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+
+#flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#flexbox > div {
+    background-color: springgreen;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+/* boxes */
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+} 
+
+#boxes .box img{
+    width: 200px;
+}
+
+/* footer */
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: chocolate;
+    text-align: center;
+}

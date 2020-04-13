@@ -1,0 +1,35 @@
+.myPlaces ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #850454; }
+.myPlaces li {
+  color: #350202; }
+
+.my, .myRed, .myGreen, .myBlue {
+  border: dotted;
+  padding: 30px;
+  margin: 20px; }
+
+.myRed {
+  background-color: #f1aa99; }
+
+.myGreen {
+  background-color: #f1cd93; }
+
+.myBlue {
+  background-color: #e491be; }
+
+.jumbotron {
+  background: url("../images/mytrips5.jpg") no-repeat 0 -100px;
+  color: white;
+  padding-top: 20px;
+  font-weight: bold; }
+  .jumbotron h1 {
+    color: black; }
+
+.bg-light {
+  background-color: cornsilk;
+  font-weight: bold; }
+
+/*# sourceMappingURL=fourth.css.map */

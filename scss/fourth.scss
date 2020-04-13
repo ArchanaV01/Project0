@@ -1,0 +1,49 @@
+$color: rgb(133, 4, 84);
+
+.myPlaces {
+    ol {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      color: $color;
+    }
+    li {
+      color: rgb(53, 2, 2);
+    }
+
+  }
+.my {
+    border: dotted;
+    padding: 30px;
+    margin: 20px;
+}
+
+.myRed{
+    @extend .my;
+    background-color: rgb(241, 170, 153);
+}
+
+.myGreen{
+    @extend .my;
+    background-color: rgb(241, 205, 147);
+}
+
+.myBlue{
+    @extend .my;
+    background-color: rgb(228, 145, 190);
+}
+
+.jumbotron{
+    background: url('../images/mytrips5.jpg') no-repeat 0 -100px;
+    color: white;
+    padding-top: 20px;
+    font-weight: bold;
+    h1{
+       color: black; 
+    }
+}
+
+.bg-light{
+    background-color: cornsilk;
+    font-weight: bold;
+}
